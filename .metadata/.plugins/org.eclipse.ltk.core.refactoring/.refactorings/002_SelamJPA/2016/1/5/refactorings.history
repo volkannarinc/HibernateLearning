@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Personel.java&apos; to &apos;003_TablonunEntitySınıfınıOtomatikOluşturma/src/com.volkannarinc&apos;&#x0D;&#x0A;- Original project: &apos;002_SelamJPA&apos;&#x0D;&#x0A;- Destination element: &apos;003_TablonunEntitySınıfınıOtomatikOluşturma/src/com.volkannarinc&apos;&#x0D;&#x0A;- Original element: &apos;com.jpatest.Personel.java&apos;" description="Copy compilation unit" destination="=003_TablonunEntitySınıfınıOtomatikOluşturma/src&lt;com.volkannarinc" element1="/src&lt;com.jpatest{Personel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1453765336392" units="1" version="1.0"/>
+</session>

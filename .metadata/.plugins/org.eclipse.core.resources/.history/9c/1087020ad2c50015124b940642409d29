@@ -1,0 +1,21 @@
+package com.volkannarinc;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Personel
+ *
+ */
+@Entity
+
+public class Personel implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public Personel() {
+		super();
+	}
+   
+}

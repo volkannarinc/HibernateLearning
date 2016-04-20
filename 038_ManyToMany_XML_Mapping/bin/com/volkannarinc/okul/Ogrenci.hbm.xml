@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+        
+<hibernate-mapping>
+    <class name="com.volkannarinc.okul.Ogrenci"	table="OGRENCI">
+        
+    <!-- büyük projelerde yardımcı olması için açıklama kısmı -->
+    <meta attribute="class-description">Ogrenci sınıfının detayları</meta>
+        
+        <id name="ogrenciId" type="long" column="OGRENCI_ID">
+            <generator class="native"/>   	
+        </id>
+        
+        <property name="ogrenciAdi" column="OGRENCI_ADI" generated="never" lazy="false" 
+        	length="100" not-null="true" type="string"/>
+       	
+       	
+       	<set cascade="all" name="dersler" sort="unsorted" table="OGRENCI_DERS">
+       		<key column="OGRENCI_ID"/>
+       		<many-to-many class="com.volkannarinc.okul.Ders" column="DERS_ID" unique="false" />
+       	</set>
+       	
+       	
+    </class>
+
+</hibernate-mapping>
+        

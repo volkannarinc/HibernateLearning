@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;031_CRUD_Islemleri/src&apos;&#x0D;&#x0A;- Original project: &apos;017_@JoinTable&apos;&#x0D;&#x0A;- Destination element: &apos;031_CRUD_Islemleri/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     017_@JoinTable/src/com.volkannarinc&#x0D;&#x0A;     017_@JoinTable/src/com.hibernatetest" description="Copy packages" destination="=031_CRUD_Islemleri/src" element1="/src&lt;com.volkannarinc" element2="/src&lt;com.hibernatetest" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1454880539461" version="1.0"/>
+</session>

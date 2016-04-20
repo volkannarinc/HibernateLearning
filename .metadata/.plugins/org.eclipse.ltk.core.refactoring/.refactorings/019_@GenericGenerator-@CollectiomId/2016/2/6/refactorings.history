@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;019_@GenericGenerator-@CollectiomId&apos;&#x0D;&#x0A;- Original project: &apos;019_@GenericGenerator-@CollectiomId&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     019_@GenericGenerator-@CollectiomId/src/hibernatetest&#x0D;&#x0A;     019_@GenericGenerator-@CollectiomId/src/volkannarinc&#x0D;&#x0A;     hibernate.cfg.xml" description="Delete elements" element1="src/hibernate.cfg.xml" element2="/src&lt;volkannarinc" element3="/src&lt;hibernatetest" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1454446745957" subPackages="false" version="1.0"/>
+</session>
